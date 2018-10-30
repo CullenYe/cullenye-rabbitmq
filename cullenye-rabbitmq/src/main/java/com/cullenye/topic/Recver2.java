@@ -11,6 +11,7 @@ import java.io.IOException;
  *
  */
 public class Recver2 {
+	
     private final static String EXCHANGE_NAME = "testtopic";//定义交换机的名字
 
     public static void main(String[] args) throws Exception{

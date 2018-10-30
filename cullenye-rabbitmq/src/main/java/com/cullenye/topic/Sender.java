@@ -11,6 +11,7 @@ import com.rabbitmq.client.Connection;
  *
  */
 public class Sender {
+	
     private final static String EXCHANGE_NAME = "testtopic";
 
     public static void main(String[] args) throws Exception{
