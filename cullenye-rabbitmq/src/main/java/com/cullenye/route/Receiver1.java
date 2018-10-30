@@ -16,7 +16,7 @@ import com.rabbitmq.client.Envelope;
  */
 public class Receiver1 {
 	
-	private final static String EXCHANGE_NAME = "testeoute";//定义交换机的名字
+	private final static String EXCHANGE_NAME = "testroute";//定义交换机的名字
 
     public static void main(String[] args) throws Exception{
     	
