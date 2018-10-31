@@ -31,7 +31,7 @@
     	</rabbit:bindings>
     </rabbit:fanout-exchange>
     
-    <!--定义监听容易,当收到消息的时候会执行内部的配置-->
+    <!--定义监听容器,当收到消息的时候会执行内部的配置-->
     <rabbit:listener-container connection-factory="connectionFactory">
     	<!--定义到底哪个类里面的什么方法用于处理收到的消息-->
     	<rabbit:listener ref="consumer" method="test" queue-names="myQueue"/>
